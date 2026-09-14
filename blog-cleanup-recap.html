@@ -51,7 +51,7 @@
 
 <section>
   <div class="article-wrap">
-    <a href="blog.html" class="back-link" style="color:var(--pine);">← Back to Blog</a>
+    <a href="blog.html" class="back-link" style="color:var(--pine);" onclick="event.preventDefault(); if (window.history.length > 1) { window.history.back(); } else { window.location.href=this.href; }">← Back to Blog</a>
     <div class="article-hero-img">
       <img src="https://images.pexels.com/photos/9543740/pexels-photo-9543740.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Neighborhood clean-up day">
     </div>
